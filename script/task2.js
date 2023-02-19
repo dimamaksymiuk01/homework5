@@ -8,17 +8,13 @@ const res1 = document.querySelector (".res1");
 
 function factorial() {
     let n;
-    // let n = +prompt("Введіть число:");
     n = +inp3.value;
     let result = 1;
     for (let i = 2; i <= n; i++) {
       result *= i;
     }
-    alert("Факторіал числа " + n + " дорівнює " + result); 
     res1.textContent = "Факторіал числа " + n + " дорівнює " + result;
  }
-
-    // factorial()
 
 btn2.addEventListener ('click', ()=> {
     factorial();

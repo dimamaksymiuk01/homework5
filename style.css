@@ -15,3 +15,8 @@ div {
     gap: 10px;
     border: 2px solid;
 }
+span {
+    width: 320px;
+    text-align: center;
+    font-size: 17px;
+}
