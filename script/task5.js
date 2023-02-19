@@ -3,7 +3,6 @@ const inp8 = document.querySelector (".inp9");
 const btn5 = document.querySelector ("#btn5");
 const res5 = document.querySelector (".res5");
 
-
 function isPerfectNumber(num) {
     let sum = 0;
     for (let i = 1; i < num; i++) {
